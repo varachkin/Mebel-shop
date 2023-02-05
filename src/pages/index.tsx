@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {TITLE_PAGE} from "@/constants/constants";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
             </Head>
             <Header/>
+            <Footer/>
         </>
     )
 }
